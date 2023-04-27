@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Instrument Serif', serif;
+}
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Zm9yZXN0JTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&w=1000&q=80);
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 10%;
+}
+
+.logo{
+    color: white;
+    font-size: 28px;
+}
+
+span{
+    color: #d4af37;
+}
+
+span1{
+    color: #043927;
+}
+
+nav ul li{
+    list-style-type: none;
+   display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a{
+    color: #043927;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: #d4af37;
+    transition: .3s;
+}
+
+/* End of Navbar CSS  */
+
+
+    body {
+        margin: 0;
+        font-family: 'Instrument Serif', serif;
+        color: aliceblue;
+        background: #043927;
+    }
+
+    section{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 400px;
+        padding: 100px 20vw;
+    }
+    .green {
+        background: #043927;
+    }
+
+    .gold {
+        background: #d4af37;
+    }
+
+    .grey {
+        background: #c9c9c8;
+    }
+
+    .wave {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.wave .shape-fill {
+    fill: #043927;
+}
+
+.wave2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave2 svg {
+    position: relative;
+    display: block;
+    width: calc(179% + 1.3px);
+    height: 175px;
+}
+
+.wave2 .shape-fill {
+    fill: #c9c9c8;
+}
+
+/* End of Wave CSS  */
+
+h1 {
+    text-align: center;
+    padding-top: 150px;
+    font-size: 108px;
+}
+
+body {
+    text-align: center;
+    display: inline-block;
+}
+
+.hpbut{
+    border: 2px solid #043927;
+    background-color: transparent;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hpbut:hover {
+    background-color: #043927; 
+    color: #d4af37;
+  }
+
+  .button {
+    transition-duration: 0.4s;
+  }
